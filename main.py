@@ -17,7 +17,7 @@ engine = create_engine(DATABASE_URI)
 Session = sessionmaker(bind=engine)
 session = Session()
 
-bot = telebot.TeleBot('1462906734:AAHbG9BdBAVw9jqUCc3Ld5HDiVT86O1d1g0')
+bot = telebot.TeleBot('TOKEN')
 db_session_prv = providers.Object(session)
 specialty.DIService.db_session.override(db_session_prv)
 
