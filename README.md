@@ -3,7 +3,7 @@
 Token is in config.ini and main.py (bot)
 
 Структура программы:
-di_configuration.py 
+di_configuration.py
 main.py – стартовый файл бота, содержит обработчики
 models.py – содержит классы описывающие таблицы в БД
 README.md – содержит текст отображаемый в разделе о проекте в GitHub
